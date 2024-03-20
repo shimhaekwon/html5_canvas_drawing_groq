@@ -1,0 +1,21 @@
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+canvas {
+	border: 1px solid black;
+	margin-bottom: 10px;
+  background-color: #f0f0f0;
+}
+
+#canvas-tool {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+button {
+	align-self: flex-start;
+}
